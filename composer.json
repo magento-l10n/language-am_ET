@@ -1,0 +1,21 @@
+{
+    "name": "community-engineering/language-am_et",
+    "version": "0.0.1",
+    "type": "magento2-language",
+    "description": "am_ET language package.",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
